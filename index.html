@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Service Request Form</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <header>
+    <div class="logo">
+      <img src="https://cdn-icons-png.flaticon.com/512/3798/3798598.png" alt="Service Logo">
+      <h1>QuickHelp Services</h1>
+    </div>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">About</a>
+      <a href="#">Services</a>
+      <a href="#">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>Submit Your Service Request</h2>
+    <p>Fast, reliable, and professional solutions at your fingertips.</p>
+  </section>
+
+  <section class="form-section">
+    <form>
+      <h3>Request Form</h3>
+      <label for="name">Full Name:</label>
+      <input type="text" id="name" placeholder="Enter your full name" required>
+
+      <label for="email">Email Address:</label>
+      <input type="email" id="email" placeholder="Enter your email" required>
+
+      <label for="service">Select Service:</label>
+      <select id="service" required>
+        <option value="">--Choose a service--</option>
+        <option>Plumbing</option>
+        <option>Electrical</option>
+        <option>Cleaning</option>
+        <option>Painting</option>
+      </select>
+
+      <label for="details">Details:</label>
+      <textarea id="details" placeholder="Describe your request" required></textarea>
+
+      <button type="submit">Submit Request</button>
+    </form>
+
+    <div class="side-image">
+      <img src="https://images.unsplash.com/photo-1560264357-8d9202250f21?auto=format&fit=crop&w=800&q=80" alt="Worker">
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 QuickHelp Services | Designed with ❤️ for your needs</p>
+  </footer>
+
+</body>
+</html>
