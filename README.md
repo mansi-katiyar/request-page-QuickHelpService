@@ -1,4 +1,4 @@
-# QuickHelp Service - Request Page
+# QuickHelpService - Request Page
 
 The **QuickHelp Service Request Page** is a simple and user-friendly web page that allows users to submit their service requests easily. This can be part of a larger neighborhood or community assistance platform.
 
